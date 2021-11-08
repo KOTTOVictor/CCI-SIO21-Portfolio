@@ -20,6 +20,10 @@ il y aura des petits cub de couleur en desous de ma présentation
 
 Logo : 
 
+<img src="/Users/victorekobekotto/Desktop/CCI/Atelier Pro./Portfolio/CCI-SIO21-Portfolio/Documentation/logo/Solution.jpg" alt="Solution" style="zoom:25%;" />
+
+<img src="/Users/victorekobekotto/Desktop/CCI/Atelier Pro./Portfolio/CCI-SIO21-Portfolio/Documentation/logo/LgoV.png" alt="LgoV" style="zoom:25%;" />
+
 
 
 Texte : 
@@ -27,3 +31,4 @@ Texte :
 
 
 Intro en dessous du logo : Entreprise informatique à Strasbourg, VTR studio crée pour votre société une architecture informatique optimale et sur-mesure. Nous agissons à vos côtés en tant que centre de compétences spécialisé dans la création de site internet, développement des système informatique de vôtre entreprise et partenaire privilégié des Start-up. Nous mettons à votre disposition nôtre équipe d’expert en solutions informatiques multi-compétences qui vous accompagne dans votre transformation digitale, de l’installation à la maintenance de votre système informatique.
+
