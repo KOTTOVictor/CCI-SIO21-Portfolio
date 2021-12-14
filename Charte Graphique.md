@@ -26,7 +26,7 @@ Depuis le début de mon BTS, j'ai découvert une véritable passion pour le dév
 
 
 
-une page qui defileavec les troi propositions
+une page qui defile avec les troi propositions
 
 **mon parcours :** 
 
