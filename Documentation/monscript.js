@@ -1,15 +1,12 @@
-var compteurImage=1;
-var totalimage=3;
+var slide = new Array("nav1.jpg", "nav2.jpg", "nav3.jpg");
+var numero = 3;
 
-function slider(x){
-
-    var image=document.getElementById('img');
-    compteurImage=compteurImage + x;
-    image.src="images/nav"+compteurImage +".jpg"
-
-    if(compteurImage>=totalImage)
-        {
-            compteurImage=1;
-        }
-    if(compteurImage<1){compteurImage=totalimage;}
+function ChangeSlide(sens) {
+    numero = numero + sens;
+    if (numero < 0)
+        numero = slide.length + 1;
+    if (numero > slide.length - 1)
+        numero = 0;
+    document.getElementById("slide").src = slide[numero];
 }
+setInterval("ChangeSlide(1)", 4000);

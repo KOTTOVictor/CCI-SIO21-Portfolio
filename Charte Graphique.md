@@ -77,3 +77,9 @@ Logo :![logo-facebook](/Users/victorekobekotto/Desktop/CCI/Atelier Pro./Portfoli
 ![IMG_7888 copie](/Volumes/VTR DISQU/Moi/Photo/2021/IMG_7888 copie.jpg)
 
 ![parcours-image](/Users/victorekobekotto/Desktop/CCI/Atelier Pro./Portfolio/CCI-SIO21-Portfolio/Documentation/images/parcours-image.jpg)
+
+
+
+
+
+mettre les alt si necessaire

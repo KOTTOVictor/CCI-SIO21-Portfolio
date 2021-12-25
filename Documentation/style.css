@@ -1,8 +1,15 @@
 body,html, *{
     margin: 0;
     padding: 0;
-    font-family: 'Advent Pro', sans-serif;
     box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
 }
 li{
     list-style: none;
@@ -51,18 +58,18 @@ header li a{
 /* Présentation */
 #presentation{
     background-color: #4203c9;
-    height: 500px;
-    width: 100%; 
-    padding: 2%;   
+    height: auto;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em 0;
+    text-align: center;
 }
 .presentation{
     background-color: #d71b3b;
-    height: 75%;
-    width: 50%;
-    margin: auto;
-    margin-top: 3.5em;
-    margin-bottom: 5em;
-    display: flex;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2.5em 5em;
     flex-direction: column;
     flex-wrap: wrap;
 
@@ -91,7 +98,7 @@ header li a{
 
 /* Images defilantes -------------------- */
 
-#slider{
+/* #slider{
     background-color: aqua;
     width: 100%;
     height: 550px;
@@ -139,4 +146,52 @@ header li a{
     opacity: 0.4;
 }.d:hover{
     opacity: 1;
+} */
+
+#slider {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+
+
+/* Footeur --------------------------------- */
+
+#pied{
+    background-color: #4203c9;
+    margin-top: 3em;
+}
+
+.logofoot{
+    height: 50px;
+    width: 50px;
 }
