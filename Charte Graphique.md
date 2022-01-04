@@ -48,13 +48,13 @@ Image konix
 
 Code couleur :
 
-d71b3b
+d71b3b  rouge
 
-e8d71e
+e8d71e jaune
 
-16acea
+16acea bleu claire
 
-4203c9 
+4203c9 Violet
 
 
 
