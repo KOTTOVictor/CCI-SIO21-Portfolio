@@ -1,0 +1,120 @@
+body,html, *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+}
+
+
+/* Barre de munu en haut */
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+
+}
+li{
+    flex: auto;
+}
+
+.monPar{
+    background-color: #d71b3b;
+}
+
+.menu{
+    background-color: #e8d71e ;
+}
+
+.mesPro{
+    background-color: #16acea  ;
+}
+
+
+
+
+/*  ***************************/
+#contenantImg{
+    position: relative;
+    text-align: center;
+}
+
+.texte_centrer {
+    position: absolute;
+    top: 95%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+/* ************************** */
+#presentation{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 10%;
+}
+
+
+/* ************************ */
+footer{
+    background-color: #d71b3b;
+    margin-top: 3em;
+    color: #e8d71e;
+}
+
+.logofoot{
+    height: 50px;
+    width: 50px;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+textarea{
+    height: 120px;
+}
+
+button{
+    font-size: 1.5em;
+    background-color: #e8d71e;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #d71b3b;
+    border: dashed #e8d71e;
+}
+
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #e8d71e;
+    margin: 60px auto;
+}
+
+#copyrightdiv{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}

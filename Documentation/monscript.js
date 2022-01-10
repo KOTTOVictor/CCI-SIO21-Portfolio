@@ -1,8 +1,8 @@
 var slide = new Array("./images/nav1.jpg", "./images/nav2.jpg", "./images/nav3.jpg");
 var numero = 0;
 
-let path = new Array("Mon Parcours.html", "Projet.html", "Experience Proffesionnel.html" )
-let title = new Array("Mon Parcours", "Mes Projets", "Mes Experiences Proffessionel" )
+let path = new Array("Mon Parcours.html", "Projet.html", "ExperienceProffesionnel.html" )
+let title = new Array("Mon Parcours", "Mes Projets", "Mes ExperiencesProffessionel" )
 let pied = new Array("#d71b3b", "#4203c9", "#16acea" )
 
 // let description = new Array("Mon Parcours", "Mes Projets", "Mes Experiences Proffessionel" )
