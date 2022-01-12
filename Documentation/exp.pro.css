@@ -51,17 +51,29 @@ li{
 
 .texte_centrer {
     position: absolute;
-    top: 95%;
-    left: 57%;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 /* ************************** */
 #presentation{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 1em;
     margin: 0 10%;
+    padding-top: 2%;
+}
+
+#zontxt{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.zontxt{
+    width: 50%;
+    margin: auto;
 }
 
 
