@@ -15,7 +15,7 @@ body,html, *
 }
 
 
-/* Barre de munu en haut */
+/* Barre de menu en haut */
 
 ul{
     list-style: none;
@@ -43,7 +43,7 @@ li{
 
 
 
-/*  ***************************/
+/*  IMG en Haut ***************************/
 #contenantImg{
     position: relative;
     text-align: center;
@@ -51,41 +51,20 @@ li{
 
 .texte_centrer {
     position: absolute;
-    top: 85%;
-    left: 50%;
+    top: 58%;
+    left: 61%;
     transform: translate(-50%, -50%);
 }
 
-/* ************************** */
-#presentation{
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    margin: 0 10%;
-    padding-top: 2%;
-}
-
-#zontxt{
-    margin-top: 2%;
-    margin-bottom: 2%;
-
-}
-
-.zontxt{
-    width: 50%;
-    margin: auto;
-}
-
-
-Commentaire trait entre les deux projet
+/* Commentaire trait entre les deux projet
+************************** */
+apparent ça ne fontionne pas
 #trait{
     height: 10px;
     width: 75%;
     background-color: #e8d71e;
     margin: 60px auto;
 }
-
-
 
 /* ************************ */
 footer{
