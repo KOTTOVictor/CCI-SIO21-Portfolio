@@ -1,1 +1,0 @@
-fermer Application : ALT+F4
