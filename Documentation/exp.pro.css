@@ -43,18 +43,13 @@ li{
 
 
 
-/*  ***************************/
+/*  Image de présentation***************************/
 #contenantImg{
     position: relative;
     text-align: center;
 }
 
-.texte_centrer {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 /* ************************** */
 #presentation{
@@ -87,7 +82,7 @@ Commentaire trait entre les deux projet
 
 
 
-/* ************************ */
+/* footer ************************ */
 footer{
     background-color: #d71b3b;
     margin-top: 3em;
@@ -133,6 +128,7 @@ button:hover{
     width: 75%;
     background-color: #e8d71e;
     margin: 60px auto;
+    padding-top: 1%;
 }
 
 #copyrightdiv{

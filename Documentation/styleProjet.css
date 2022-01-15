@@ -7,6 +7,9 @@ body,html, *
     text-align: center;
     box-sizing: border-box;
     scroll-behavior: smooth;    
+    list-style: none;
+    text-decoration: none;
+
 }
 
 @font-face {
@@ -17,14 +20,14 @@ body,html, *
 
 /* Barre de menu en haut */
 
-ul{
+#navbar{
     list-style: none;
     display: flex;
     flex-direction: row;
     font-size: 3em;
 
 }
-li{
+#trois li{
     flex: auto;
 }
 
@@ -47,6 +50,7 @@ li{
 #contenantImg{
     position: relative;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .texte_centrer {
@@ -56,61 +60,94 @@ li{
     transform: translate(-50%, -50%);
 }
 
-/* Commentaire trait entre les deux projet
-************************** */
-apparent ça ne fontionne pas
-#trait{
-    height: 10px;
-    width: 75%;
+#imgPrinc{
+    border-radius: 5%;
+}
+
+
+/*Section des projets*/
+
+.imgPortFo{
+    border-radius: 5%;
+}
+
+#row{
+    display: flex;
+    flex-direction: column;
+}
+#colone{
+    border: solid #e8d71e;
+    max-width: 45%;
+    margin: auto;
+    border-radius: 10px;
+}
+.imgPortFo{
+    width: 300px;
+    height: 250px;
+}
+.sousPartie{
+    color: #d71b3b;
+    border: solid;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
     background-color: #e8d71e;
+    border-radius: 5%;
+    
+}
+.sousPartie:hover li p{
+    background-color: #16acea;
+    color: white;
+}
+.sousPartie:hover li a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Commentaire trait entre les deux projet ************************** */
+
+.trait
+{
+    height: 1px;
+    width: 75%;
+    background-color: #16acea;
     margin: 60px auto;
 }
 
-/* ************************ */
-footer{
-    background-color: #d71b3b;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footeur ************************ */
+#pied{
+    background-color: #4203c9;
     margin-top: 3em;
     color: #e8d71e;
 }
 
-.logofoot{
-    height: 50px;
-    width: 50px;
-}
-
-form{
-    margin: 0 auto;
-    max-width: 900px;
-}
-
-input, textarea, button{
-    border: none;
-    width: 55%;
-    padding: 15px 10px;
-    margin: 1px 0;
-    font-size: 1.2em;
-    border-radius: 8px;
-}
-
-textarea{
-    height: 120px;
-}
-
-button{
-    font-size: 1.5em;
-    background-color: #e8d71e;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-button:hover{
-    background-color: #d71b3b;
-    border: dashed #e8d71e;
-}
-
 #deuxiemeTrait{
-    height: 1px;
+    height: 1em;
     width: 75%;
-    background-color: #e8d71e;
+    background-color: #16acea;
     margin: 60px auto;
 }
 
@@ -118,4 +155,14 @@ button:hover{
     display: flex;
     margin-bottom: 20px;
     padding: 0 10%;
+}
+
+.logofoot{
+    height: 50px;
+    width: 50px;
+}
+
+#deuxiemeTrait:hover{
+    background-color: white;
+    color: black;
 }
