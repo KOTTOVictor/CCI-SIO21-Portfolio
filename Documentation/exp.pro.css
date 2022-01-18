@@ -6,7 +6,9 @@ body,html, *
     font-family: 'Poppins';
     text-align: center;
     box-sizing: border-box;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth; 
+    list-style: none;
+   
 }
 
 @font-face {
@@ -18,11 +20,9 @@ body,html, *
 /* Barre de munu en haut */
 
 ul{
-    list-style: none;
     display: flex;
     flex-direction: row;
     font-size: 3em;
-
 }
 li{
     flex: auto;
@@ -48,8 +48,14 @@ li{
     position: relative;
     text-align: center;
 }
+#imgPrinc{
+    width: 950px;
+    height: 550px;
+}
 
-
+#contenantImg h1{
+    font-size: 3em;color: #e8d71e 
+}
 
 /* ************************** */
 #presentation{
@@ -122,14 +128,13 @@ button:hover{
     background-color: #d71b3b;
     border: dashed #e8d71e;
 }
-
 #deuxiemeTrait{
-    height: 1px;
+    height: 1em;
     width: 75%;
     background-color: #e8d71e;
     margin: 60px auto;
-    padding-top: 1%;
 }
+
 
 #copyrightdiv{
     display: flex;

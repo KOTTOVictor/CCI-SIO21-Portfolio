@@ -1,0 +1,43 @@
+body,html, *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    list-style: none;
+   
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+}
+
+
+/* Barre de munu en haut */
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+}
+
+
+li{
+    flex: auto;
+}
+
+.mesPro{
+    background-color: #d71b3b;
+}
+
+.menu{
+    background-color: #e8d71e ;
+}
+
+.mesExp{
+    background-color: #16acea  ;
+}

@@ -21,12 +21,12 @@ body,html, *
 /* Barre de menu en haut */
 
 #navbar{
-    list-style: none;
     display: flex;
     flex-direction: row;
     font-size: 3em;
 
 }
+
 #trois li{
     flex: auto;
 }
@@ -39,7 +39,7 @@ body,html, *
     background-color: #e8d71e ;
 }
 
-.mesPro{
+.mesExp{
     background-color: #16acea  ;
 }
 
