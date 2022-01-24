@@ -161,8 +161,3 @@ body,html, *
     height: 50px;
     width: 50px;
 }
-
-#deuxiemeTrait:hover{
-    background-color: white;
-    color: black;
-}

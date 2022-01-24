@@ -124,10 +124,7 @@ button{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-button:hover{
-    background-color: #d71b3b;
-    border: dashed #e8d71e;
-}
+
 #deuxiemeTrait{
     height: 1em;
     width: 75%;

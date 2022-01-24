@@ -7,7 +7,6 @@ body,html, *
     text-align: center;
     box-sizing: border-box;
     scroll-behavior: smooth; 
-    list-style: none;
    
 }
 
@@ -23,6 +22,8 @@ body,html, *
     display: flex;
     flex-direction: row;
     font-size: 3em;
+    list-style: none;
+
 }
 
 
@@ -40,4 +41,137 @@ li{
 
 .mesExp{
     background-color: #16acea  ;
+}
+
+
+/*Image principale*/
+
+#contenantImg{
+    position: relative;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.texte_centrer {
+    position: absolute;
+    color: #e8d71e;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+/*Mes formation*/
+#intro{
+    text-align: center;
+    overflow: hidden;
+}
+header.major {
+    position: relative;
+    text-align: center;
+    border-top: solid 1px #ccc;
+    top: 1em;
+    margin: 0 0 3em 0;
+    max-width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+header.major h1 {
+    background: #fff;
+    position: relative;
+    top: -0.65em;
+    display: inline;
+    margin: 0;
+    padding: 0 1em 0 1em;
+}
+
+#row #colonne #box img {
+    width: 200px;
+    height: 200px;
+}
+
+#row{
+    margin-top: -50px;
+    margin-left: -50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;   
+    justify-content: center; 
+
+}
+
+#row  #colonne {
+    width: 33.20%;
+}
+
+/*Mes Competences*/
+
+div ul {
+    list-style-type: disc;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+div ul li {
+    padding-left: -3em;
+    width: 200px;
+}
+
+#flexCompétences{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contour{
+    border: dashed #e8d71e;
+}
+
+/*Pied*/
+
+footer{
+    background-color: #4203c9;
+    margin-top: 3em;
+    color: #e8d71e;
+}
+
+.logofoot{
+    height: 50px;
+    width: 50px;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+textarea{
+    height: 120px;
+}
+
+
+#trait{
+    height: 1em;
+    width: 75%;
+    background-color: #e8d71e;
+    margin: 60px auto;
+}
+
+
+#copyrightdiv{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
 }
