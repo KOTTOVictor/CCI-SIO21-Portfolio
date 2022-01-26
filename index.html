@@ -5,10 +5,10 @@
 
      <title>Portfolio</title>
 
-     <link rel="stylesheet" href="/Documentation/style.css" >
+     <link rel="stylesheet" href="style.css" >
      <style type="text/css">a:link{text-decoration:none}</style>
-     <script src="monscript.js" type="text/javascript"></script>
-     <link rel="icon" href="logo/Solutionnewnew.png" />
+     <script src="/Documentation/monscript.js" type="text/javascript"></script>
+     <link rel="icon" href="/Documentation/logo/LgoV.png" />
 
     </head>
 
@@ -22,7 +22,7 @@
 <!--Logo----------------------------->
         <section id="vershaut">
             <div  id="logodiv" >
-                <img id="logo" src="logo/Solutionnewnew.png"  alt="">
+                <img id="logo" src="Documentation/logo/Solutionnewnew.png"  alt="">
             </div>
         </section>
         
@@ -48,7 +48,7 @@
         <section id="presentation">
             <div class="presentation">
 
-                <img class="photodemoi" src="images/photodemoi.jpg" alt="">
+                <img class="photodemoi" src="Documentation/images/photodemoi.jpg" alt="">
 
                 <p>Qui suis-je ?</p>
                 
@@ -80,7 +80,7 @@
 
 
         <div id="slider">
-            <a id="slidlink" href="MonParcours.html"><img class="image" style="border-radius: 10%;" src="images/nav1.jpg" alt="Mon Parcours" id="slide" title="Mon Parcours" ></a>
+            <a id="slidlink" href="Documentation/MonParcours.html"><img class="image" style="border-radius: 10%;" src="Documentation/images/nav1.jpg" alt="Mon Parcours" id="slide" title="Mon Parcours" ></a>
             <!-- <p class="description">Mon Parcours</p> -->
             <div id="precedent" class="zindex" onclick="ChangeSlide(-1)"><</div>
             <div id="suivant" class="zindex" onclick="ChangeSlide(1)">></div>
@@ -92,17 +92,13 @@
             <h2 id="contacte">
                 Contactez-moi
             </h2>
-            <form>
-                <form action="https://formsubmit.co/victorekobekotto@gmail.com" method="POST">
-                    <input type="text" name="name" required>
-                    <input type="email" name="email" required>
-                    <button type="submit">Send</button>
-               </form>
-                <input placeholder="Nom">
-                <input placeholder="E-mail">
-                <textarea placeholder="Votre message ici..."></textarea>
-                <button>Envoyer</button>
-            </form>
+            <form action="https://formsubmit.co/victorekobekotto@gmail.com" method="POST">
+                <input placeholder="Nom" type="text" name="name" required>
+                <input placeholder="E-mail" type="email" name="email" required>
+                <textarea placeholder="Votre message ici..." name="texte" required></textarea>
+                <button placeholder="Votre message ici..." type="submit">Envoyer</button>
+           </form>
+            
             <div id="deuxiemeTrait"></div>
             <div id="copyrightdiv">
                 <div id="copyright">
@@ -115,10 +111,7 @@
                 Retrouvez moi sur Linkedin
             </h1>
             <div>
-                <a href="https://www.linkedin.com/feed/?trk=seo-authwall-base_signin-form_submit" ><img title="lien vers linkedin"  class="logofoot" src="logo/logolinkedin.png" alt=""></a>
-            
-                <img src="" alt="">
-                <img src="" alt="">
+                <a href="https://www.linkedin.com/feed/?trk=seo-authwall-base_signin-form_submit" ><img title="lien vers linkedin"  class="logofoot" src="Documentation/logo/logolinkedin.png" alt=""></a>
             </div>
         </footer>
     </body>

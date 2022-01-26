@@ -12,7 +12,8 @@ body,html, *{
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+    src: url('Documentation/Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+
 }
 li{
     list-style: none;
