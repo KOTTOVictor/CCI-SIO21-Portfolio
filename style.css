@@ -36,7 +36,7 @@ li{
 
 /* <!--NAV BAR-----------------------------> */
 
-ul li {
+#navbar ul li {
     color: #16acea ;
     animation: flash 1.4s linear infinite;
 }
@@ -181,6 +181,32 @@ header li a{
     opacity: 1;
 }
 
+/* Barre de menu en bas */
+
+#navbarBas{
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+
+}
+
+#trois li{
+    flex: auto;
+}
+
+.monParbas{
+    background-color: #d71b3b;
+}
+
+.mesPro{
+    background-color: #e8d71e ;
+}
+
+.mesExp{
+    background-color: #16acea  ;
+}
+
+
 
 
 
@@ -188,7 +214,6 @@ header li a{
 
 footer{
     background-color: #d71b3b;
-    margin-top: 3em;
     color: #e8d71e;
 }
 
