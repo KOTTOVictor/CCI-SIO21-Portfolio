@@ -6,10 +6,12 @@ body,html, *{
     text-align: center;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
-    
 }
+body{
+    flex-wrap: wrap;
+    width: min-content;
 
+}
 @font-face {
     font-family: 'Poppins';
     src: url('Documentation/Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
@@ -187,7 +189,7 @@ header li a{
     display: flex;
     flex-direction: row;
     font-size: 3em;
-
+    flex-wrap: wrap;
 }
 
 #trois li{
