@@ -1,4 +1,4 @@
-body,html, *{
+originebody,html, *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -221,7 +221,7 @@ header li a{
 
 
 
-/* Pied et Contact--------------------------------- */
+/* Footeur --------------------------------- */
 
 footer{
     background-color: #d71b3b;
@@ -233,6 +233,10 @@ footer{
     width: 50px;
 }
 
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
 
 input, textarea, button{
     border: none;
@@ -265,15 +269,8 @@ button:hover{
     margin: 60px auto;
 }
 
-#contcontact{
+#copyrightdiv{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#pied{
-    font-size: small;
-    padding-bottom: 1em;
-
+    margin-bottom: 20px;
+    padding: 0 10%;
 }
