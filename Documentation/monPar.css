@@ -26,6 +26,10 @@ body,html, *
 
 }
 
+.trois .navbar li{
+    list-style: none;
+}
+
 
 li{
     flex: auto;
