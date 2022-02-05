@@ -50,7 +50,7 @@ li{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 @keyframes flash {
@@ -95,13 +95,22 @@ header li a{
     text-decoration: none;
     
 }
-.logona{
+.logona {
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 #navbar{
     background-color: #d71b3b;
     z-index: 0;
 
+}
+
+.imgnav{
+    max-width: 2em;
+    max-height: 1.5em;
 }
 
 /* Présentation */

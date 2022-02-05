@@ -19,8 +19,52 @@ function ChangeSlide(sens) {
      document.getElementById("slidlink").href = path[numero];
      document.getElementById("slide").title = title[numero];
      document.getElementById("pied").style.backgroundColor = pied[numero];
-    //  document.getElementById("slidlink").description = description[numero];
-    
+    //  document.getElementById("slidlink").description = description[numero];  
  }
+ 
  setInterval("ChangeSlide(1)", 15000);
 
+
+
+ let fg = document.getElementById("fg");
+ let fd = document.getElementById("fd");
+ let fg1 = document.getElementById("fg1");
+ let fd1 = document.getElementById("fd1");
+
+ fg.addEventListener("click", () => {
+   if(getComputedStyle(fg1).display != "none"){
+     fg1.style.display = "none";
+   } else {
+    fg1.style.display = "block";
+   }
+ })
+ 
+ function fdd(){
+   if(getComputedStyle(fd1).display != "none"){
+    fd1.style.display = "none";
+   } else {
+    fd1.style.display = "block";
+   }
+ };
+ fd.onclick = fdd;
+
+//  let fg = document.getElementById("fg");
+//  let fd = document.getElementById("fd");
+//  let fg1 = document.getElementById("fg1");
+//  let fd1 = document.getElementById("fd1");
+//  fg.addEventListener("click", () => {
+//    if(getComputedStyle(fg1).visibility = "hidden"){
+//      fg1.style.visibility = "visible";
+//    } else {
+//     fg1.style.display = "block";
+//    }
+//  })
+ 
+//  function togg(){
+//    if(getComputedStyle(fd1).visibility = "hidden"){
+//     fd1.style.visibility = "visible";
+//    } else {
+//     fd1.style.display = "block";
+//    }
+//  };
+//  fd.onclick = f;
