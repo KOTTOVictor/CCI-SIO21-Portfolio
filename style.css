@@ -100,7 +100,10 @@ header li a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap
+
+
 }
 #navbar{
     background-color: #d71b3b;
@@ -109,8 +112,8 @@ header li a{
 }
 
 .imgnav{
-    max-width: 2em;
-    max-height: 1.5em;
+    max-width: 1em;
+    max-height: 1em;
 }
 
 /* Présentation */

@@ -9,7 +9,8 @@ let pied = new Array("#d71b3b", "#4203c9", "#16acea" )
 
 
 
-function ChangeSlide(sens) {
+function ChangeSlide(sens) 
+{
      numero = numero + sens;
     if (numero < 0)
          numero = slide.length - 1;
@@ -20,33 +21,33 @@ function ChangeSlide(sens) {
      document.getElementById("slide").title = title[numero];
      document.getElementById("pied").style.backgroundColor = pied[numero];
     //  document.getElementById("slidlink").description = description[numero];  
- }
- 
- setInterval("ChangeSlide(1)", 15000);
+}
+
+setInterval("ChangeSlide(1)", 15000);
 
 
 
- let fg = document.getElementById("fg");
- let fd = document.getElementById("fd");
- let fg1 = document.getElementById("fg1");
- let fd1 = document.getElementById("fd1");
+let blockfg = document.getElementById("blockfg");
+let blockfd = document.getElementById("blockfd");
+let fg = document.getElementById("fg");
+let fd = document.getElementById("fd");
 
- fg.addEventListener("click", () => {
-   if(getComputedStyle(fg1).display != "none"){
-     fg1.style.display = "none";
+blockfg.addEventListener("click", () => {
+   if(getComputedStyle(fg).display != "none"){
+     fg.style.display = "none";
    } else {
-    fg1.style.display = "block";
+    fg.style.display = "block";
    }
  })
  
  function fdd(){
-   if(getComputedStyle(fd1).display != "none"){
-    fd1.style.display = "none";
+   if(getComputedStyle(fd).display != "none"){
+    fd.style.display = "none";
    } else {
-    fd1.style.display = "block";
+    fd.style.display = "block";
    }
  };
- fd.onclick = fdd;
+ blockfd.onclick = fdd;
 
 //  let fg = document.getElementById("fg");
 //  let fd = document.getElementById("fd");
