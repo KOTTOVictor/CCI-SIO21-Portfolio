@@ -8,7 +8,7 @@ body,html, *
     box-sizing: border-box;
     scroll-behavior: smooth; 
     list-style: none;
-   
+    text-decoration: none;   
 }
 
 @font-face {
@@ -95,6 +95,11 @@ footer{
     color: #e8d71e;
 }
 
+.fh{
+    max-width: 1em;
+    max-height: 1em;
+}
+
 .logofoot{
     height: 50px;
     width: 50px;
@@ -130,8 +135,15 @@ button{
     width: 75%;
     background-color: #e8d71e;
     margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+#deuxiemeTrait:hover{
+    background-color: black;
+    color: white;
 
+}
 
 #copyrightdiv{
     display: flex;

@@ -221,6 +221,8 @@ header li a{
 
 #trois li{
     flex: auto;
+    width: 3em;
+
 }
 
 .monParbas{
