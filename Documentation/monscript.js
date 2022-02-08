@@ -19,7 +19,6 @@ function ChangeSlide(sens)
      document.getElementById("slide").src = slide[numero];
      document.getElementById("slidlink").href = path[numero];
      document.getElementById("slide").title = title[numero];
-     document.getElementById("slide").drawString("Welcome To WayToLearnX!", 50, 150);[numero];
      document.getElementById("pied").style.backgroundColor = pied[numero];
     //  document.getElementById("slidlink").description = description[numero];  
 }
