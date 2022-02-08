@@ -32,22 +32,22 @@ let blockfd = document.getElementById("blockfd");
 let fg = document.getElementById("fg");
 let fd = document.getElementById("fd");
 
+fg.style.display = "none";
+
+
 blockfg.addEventListener("click", () => {
-   if(getComputedStyle(fg).display != "none"){
      fg.style.display = "none";
-   } else {
-    fg.style.display = "block";
-   }
+     fd.style.display = "block";
+
  })
- 
- function fdd(){
-   if(getComputedStyle(fd).display != "none"){
+
+blockfd.addEventListener("click", () => {
     fd.style.display = "none";
-   } else {
-    fd.style.display = "block";
-   }
- };
- blockfd.onclick = fdd;
+    fg.style.display = "block";
+
+})
+ 
+
 
 //  let fg = document.getElementById("fg");
 //  let fd = document.getElementById("fd");
