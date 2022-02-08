@@ -8,7 +8,6 @@ body,html, *{
     scroll-behavior: smooth;
 }
 body{
-    width: min-content;
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
