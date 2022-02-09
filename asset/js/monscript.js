@@ -1,7 +1,7 @@
-var slide = new Array("../img/nav1.jpg", "../img/nav2.jpg", "../img/nav3.jpg");
+var slide = new Array("./img/nav1.jpg", "./img/nav2.jpg", "./img/nav3.jpg");
 var numero = 0;
 
-let path = new Array("../html/MonParcours.html", "../html/Projet.html", "../html/ExperienceProffesionnel.html" )
+let path = new Array("./html/MonParcours.html", "./html/Projet.html", "./html/ExperienceProffesionnel.html" )
 let title = new Array("Mon Parcours", "Mes Projets", "Mes ExperiencesProffessionel" )
 let pied = new Array("#d71b3b", "#4203c9", "#16acea" )
 
