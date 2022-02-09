@@ -1,0 +1,65 @@
+body,html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+body{
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+    background-size: cover;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+/* Barre de menu */
+
+#navbarBas{
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    flex-wrap: wrap;
+}
+
+#pBar{
+    margin-bottom: auto;
+    margin-top: 3%;
+}
+
+#trois li{
+    flex: auto;
+    width: 3em;
+    margin-bottom: 20px;
+
+}
+
+
+.menu{
+    background-color: #e8d71e ;
+}
+
+
+
+/* Mentions légales */
+
+
+#mentionslegales{
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
