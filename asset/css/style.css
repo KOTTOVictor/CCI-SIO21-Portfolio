@@ -15,10 +15,11 @@ body{
 }
 @font-face {
     font-family: 'Poppins';
-    src: url('Documentation/Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+    src: url('../fonts/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
     background-size: cover;
 
 }
+
 li{
     list-style: none;
 }
@@ -299,3 +300,22 @@ button:hover{
 
 }
 
+@media screen and (max-width: 297px) {
+    body{
+        width: min-content;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        width: min-content;
+    }
+}

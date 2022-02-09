@@ -1,7 +1,7 @@
-var slide = new Array("Documentation/images/nav1.jpg", "Documentation/images/nav2.jpg", "Documentation/images/nav3.jpg");
+var slide = new Array("../img/nav1.jpg", "../img/nav2.jpg", "../img/nav3.jpg");
 var numero = 0;
 
-let path = new Array("Documentation/MonParcours.html", "Documentation/Projet.html", "Documentation/ExperienceProffesionnel.html" )
+let path = new Array("../html/MonParcours.html", "../html/Projet.html", "../html/ExperienceProffesionnel.html" )
 let title = new Array("Mon Parcours", "Mes Projets", "Mes ExperiencesProffessionel" )
 let pied = new Array("#d71b3b", "#4203c9", "#16acea" )
 
@@ -47,25 +47,3 @@ blockfd.addEventListener("click", () => {
 
 })
  
-
-
-//  let fg = document.getElementById("fg");
-//  let fd = document.getElementById("fd");
-//  let fg1 = document.getElementById("fg1");
-//  let fd1 = document.getElementById("fd1");
-//  fg.addEventListener("click", () => {
-//    if(getComputedStyle(fg1).visibility = "hidden"){
-//      fg1.style.visibility = "visible";
-//    } else {
-//     fg1.style.display = "block";
-//    }
-//  })
- 
-//  function togg(){
-//    if(getComputedStyle(fd1).visibility = "hidden"){
-//     fd1.style.visibility = "visible";
-//    } else {
-//     fd1.style.display = "block";
-//    }
-//  };
-//  fd.onclick = f;

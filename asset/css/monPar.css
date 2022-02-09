@@ -14,7 +14,7 @@ body,html, *
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Police/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
+    src: url('../fonts/poppins/Poppins-ExtraLightItalic.otf') format('opentype');
 }
 
 
