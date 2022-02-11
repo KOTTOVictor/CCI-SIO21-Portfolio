@@ -6,7 +6,12 @@ body,html, *{
     text-align: center;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
+a:link{
+    text-decoration:none
+}
+
 body{
     margin: auto;
     display: flex;
@@ -22,6 +27,7 @@ body{
 
 li{
     list-style: none;
+    text-decoration:none;
 }
 
 
@@ -103,7 +109,6 @@ header li a{
     align-items: center;
     flex-wrap: wrap
 
-
 }
 #navbar{
     background-color: #d71b3b;
@@ -119,13 +124,23 @@ header li a{
 /* Présentation */
 #presentation{
     background-color: #16acea;
-    height: auto;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5em 0;
-    text-align: center;
-    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    height: 95%;
+    width: 80%;
+}
+#cerclePre{
+    background-color: #4203c9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    margin: 4%;
+    border-radius: 20%;
+    height: 95%;
+    width: 80%;
 }
 .presentation{
     background-color: #d71b3b;
@@ -300,22 +315,29 @@ button:hover{
 
 }
 
-@media screen and (max-width: 297px) {
+/* 1024 */
+@media screen and (max-width:1024px) {
     body{
         width: min-content;
     }
+}
+
+@media screen and (max-width: 299px) {
+   
+    #slide {
+        display: none;
+    }  
+
     .navbar{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-        background-color: aliceblue;
-    }
-}
+    } 
 
-@media screen and (max-width: 1024px) {
-    body{
-        width: min-content;
+    
+    #trois li{
+        width: 100%;
     }
 }
