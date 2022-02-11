@@ -131,6 +131,13 @@ header li a{
     height: 95%;
     width: 80%;
 }
+#contenantPre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+
+}
 #cerclePre{
     background-color: #4203c9;
     display: flex;
@@ -139,8 +146,9 @@ header li a{
     align-items: center; 
     margin: 4%;
     border-radius: 20%;
-    height: 95%;
+    height: 99%;
     width: 80%;
+    border-radius: 50px;
 }
 .presentation{
     background-color: #d71b3b;
