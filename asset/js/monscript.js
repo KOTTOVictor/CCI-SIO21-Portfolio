@@ -5,6 +5,9 @@ let path = new Array("./html/MonParcours.html", "./html/Projet.html", "./html/Ex
 let title = new Array("Mon Parcours", "Mes Projets", "Mes ExperiencesProffessionel" )
 let pied = new Array("#d71b3b", "#4203c9", "#16acea" )
 
+let fillText = new Array("Mon Parcours", "Mes Projets", "Mes ExperiencesProffessionel" )
+
+
 // let description = new Array("Mon Parcours", "Mes Projets", "Mes Experiences Proffessionel" )
 
 
@@ -17,11 +20,15 @@ function ChangeSlide(sens)
      if (numero > slide.length - 1)
          numero = 0;
      document.getElementById("slide").src = slide[numero];
+     document.getElementById("slide").fillText = fillText[numero];
+
      document.getElementById("slidlink").href = path[numero];
      document.getElementById("slide").title = title[numero];
      document.getElementById("pied").style.backgroundColor = pied[numero];
     //  document.getElementById("slidlink").description = description[numero];  
 }
+// context.fillText("Bonjour",40,40);
+// context.strokeText("Bonjour",40,100);
 
 setInterval("ChangeSlide(1)", 15000);
 
