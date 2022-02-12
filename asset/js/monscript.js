@@ -21,7 +21,6 @@ function ChangeSlide(sens)
          numero = 0;
      document.getElementById("slide").src = slide[numero];
      document.getElementById("slide").fillText = fillText[numero];
-
      document.getElementById("slidlink").href = path[numero];
      document.getElementById("slide").title = title[numero];
      document.getElementById("pied").style.backgroundColor = pied[numero];

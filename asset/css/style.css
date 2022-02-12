@@ -184,6 +184,11 @@ header li a{
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
+    transition: all .20s cubic-bezier(1, -0.45, 0, 1.1);
+}
+.presentation:hover{
+    transform: scale(1.1);
+
 }
 .photodemoi{
     width: 200px;
@@ -194,8 +199,8 @@ header li a{
 
 }
 .photodemoi:hover{
-    width: 300px;
-    height: 340px;
+    width: 280px;
+    height: 310px;
     transform: scale(1.0009);
 }
 
