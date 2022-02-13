@@ -209,9 +209,9 @@ header li a{
 
 }
 .photodemoi:hover{
-    width: 280px;
-    height: 310px;
-    transform: scale(1.0009);
+    width: 270px;
+    height: 305px;
+    transform: scale(1.0000001);
 }
 
 .divimage{
@@ -247,7 +247,7 @@ header li a{
     text-align: center;
     font-size: 1.3em;
     width: 85%;
-    margin-top: 10%;
+    margin-top: 22px;
     transition: all .3s ease-in-out;
 
 }
