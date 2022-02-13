@@ -296,15 +296,13 @@ header li a{
     flex-wrap: wrap;
 }
 
-#pBar{
-    margin-bottom: auto;
-    margin-top: 3%;
-}
-
 #trois li{
     flex: auto;
     width: 3em;
-
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .monParbas{
@@ -408,7 +406,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 827px) {
    
     #contenant{
         display: flex;
@@ -422,5 +420,19 @@ button:hover{
         display: flex;
         font-size: 3em;
         flex-direction: column;
+    }
+    #trois li {
+        flex: auto;
+        width: 100%;
+    }
+    #slider {
+        display: none;
+    }
+    .monParbas, .mesPro{
+        height: 102px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
