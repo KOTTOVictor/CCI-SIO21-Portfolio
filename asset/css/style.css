@@ -204,7 +204,7 @@ header li a{
     width: 200px;
     height: 230px;
     border-radius: 100px;
-    transition: all .3s ease-in-out;
+    transition: all .3s cubic-bezier(0.67, -0.06, 0.94, 0.34);
     
 
 }
