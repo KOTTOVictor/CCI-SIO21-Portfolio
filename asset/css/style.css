@@ -184,7 +184,7 @@ header li a{
     display: flex;
     align-items: center;
     height: 265px;
-    width: 265px;
+    width: 245px;
     border-radius: 700px;
     justify-content: center;
 }
@@ -195,7 +195,7 @@ header li a{
     background-color: #d71b3b;
     border-radius: 700px;
     flex-direction: column;
-    width: 250px;
+    width: 230px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -210,7 +210,7 @@ header li a{
 
 }
 .photodemoi{
-    width: 200px;
+    width: 180px;
     height: 230px;
     border-radius: 100px;
     transition: all .3s cubic-bezier(0.67, -0.06, 0.94, 0.34);
@@ -233,6 +233,10 @@ header li a{
     margin-top: 25px;
 }
 /* Présentation Texte-------------------------------- */
+
+u {
+    text-decoration: #f00  underline;
+}
 
 #sectionII{
     padding-top: 3em;
