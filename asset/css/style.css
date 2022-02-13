@@ -147,8 +147,8 @@ header li a{
 #contourbleu{
     background-color: #16acea;
     display: flex;
-    height: 320px;
-    width: 300px;
+    height: 295px;
+    width: 265px;
     border-radius: 700px;
     justify-content: center;
     align-items: center;
@@ -157,8 +157,14 @@ header li a{
 }
 #contourbleu:hover{
     transform: scale(1.2);
+    height: 295px;
+    width: 265px;
 
 
+}
+
+#contenantphotoprenom{
+    margin-top: 40px;
 }
     
 #contenantPre{
@@ -176,8 +182,8 @@ header li a{
     background-color: #4203c9;
     display: flex;
     align-items: center;
-    height: 280px;
-    width: 280px;
+    height: 265px;
+    width: 265px;
     border-radius: 700px;
     justify-content: center;
 }
@@ -198,6 +204,8 @@ header li a{
 }
 .presentation:hover{
     transform: scale(1.1);
+    width: 240px;
+    height: 250px;
 
 }
 .photodemoi{
@@ -205,12 +213,13 @@ header li a{
     height: 230px;
     border-radius: 100px;
     transition: all .3s cubic-bezier(0.67, -0.06, 0.94, 0.34);
-    
+    margin-top: 5px;
 
+    
 }
 .photodemoi:hover{
-    width: 270px;
-    height: 305px;
+    width: 240px;
+    height: 280px;
     transform: scale(1.0000001);
 }
 
@@ -220,7 +229,7 @@ header li a{
 }
 
 #prenom{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 /* Présentation Texte-------------------------------- */
 
