@@ -39,8 +39,7 @@ body{
 #logo{
     height: 117px;
     width: 118px;
-    transition: all .3s cubic-bezier(0, 1.26, 0, -0.35)
-
+    transition: all .3s cubic-bezier(1, 0.03, 0, 0.96);
 }
 #logo:hover{
     height: 117px;
