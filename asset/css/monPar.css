@@ -11,6 +11,10 @@ body,html, *
     text-decoration: none;
    
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 @font-face {
     font-family: 'Poppins';

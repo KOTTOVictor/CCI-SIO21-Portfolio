@@ -9,6 +9,12 @@ body,html, *{
     text-decoration: none;
 
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body{
     margin: auto;
     display: flex;

@@ -8,10 +8,11 @@ body,html, *{
     scroll-behavior: smooth;
     list-style: none;
     text-decoration:none;
-    
 }
-a:link{
-    text-decoration:none
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 body{
@@ -219,7 +220,7 @@ header li a{
 }
 .photodemoi:hover{
     width: 240px;
-    height: 280px;
+    height: 290px;
     transform: scale(1.0000001);
 }
 
@@ -229,7 +230,7 @@ header li a{
 }
 
 #prenom{
-    margin-top: 10px;
+    margin-top: 25px;
 }
 /* Présentation Texte-------------------------------- */
 
