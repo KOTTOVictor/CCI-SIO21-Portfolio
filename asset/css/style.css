@@ -39,10 +39,21 @@ body{
 #logo{
     height: 117px;
     width: 118px;
+    transition: all .3s cubic-bezier(0, 1.26, 0, -0.35)
+
+}
+#logo:hover{
+    height: 117px;
+    width: 118px;
+    transform: scale(1.4);
+    
+
 }
 
 #vershaut{
     background-color: #16acea;
+    padding-top: 20px;
+
 }
 
 /* <!--NAV BAR-----------------------------> */
