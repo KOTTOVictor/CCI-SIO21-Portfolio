@@ -382,7 +382,6 @@ button:hover{
 
 }
 
-/* 1024 */
 @media screen and (max-width:1024px) {
     body{
         width: min-content;
@@ -406,5 +405,22 @@ button:hover{
     
     #trois li{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   
+    #contenant{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .monParbas{
+        width: 100%;
+    }
+    #navbarBas{
+        display: flex;
+        font-size: 3em;
+        flex-direction: column;
     }
 }
