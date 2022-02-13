@@ -302,7 +302,7 @@ header li a{
 #navbarBas{
     display: flex;
     flex-direction: row;
-    font-size: 4em;
+    font-size: 3.5em;
     flex-wrap: wrap;
 }
 
@@ -416,7 +416,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1095px) {
    
     #contenant{
         display: flex;
@@ -428,9 +428,10 @@ button:hover{
     }
     #navbarBas{
         display: flex;
-        font-size: 3em;
+        font-size: 4em;
         flex-direction: column;
     }
+    
     #trois li {
         flex: auto;
         width: 100%;
