@@ -417,7 +417,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 827px) {
+@media screen and (max-width: 1000px) {
    
     #contenant{
         display: flex;
