@@ -302,7 +302,7 @@ header li a{
 #navbarBas{
     display: flex;
     flex-direction: row;
-    font-size: 3em;
+    font-size: 4em;
     flex-wrap: wrap;
 }
 
