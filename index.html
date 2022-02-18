@@ -3,7 +3,6 @@
 
 <html>
     <head>
-     <!-- <meta name="viewport" content="width=device-width, initial-scale=10000"> -->
      <meta charset="UTF-8">
      <title>Portfolio-CCI.Alsace</title>
      <link rel="stylesheet" href="./asset/css/style.css" >
@@ -14,6 +13,22 @@
     
     
     <body>
+        <ul class="navbar"">           
+                    <a href="#vershaut">
+                        <li id="blockfg" class="logona">
+                            <img id="fg" class="imgnav" src="./img/fg.png" alt="" style="display: none;">
+                            <p>VTR<span>Solution</span>  </p>
+                        </li>
+                    </a>
+    
+                    <img id="logo" src="./img/Solutionnewnew.png" alt=""><a href="#contacte">
+                        <li id="blockfd" class="logona">
+                            Contactez-moi
+                            <img id="fd" class="imgnav" src="./img/fd.png" alt="">
+
+                        </li>
+                    </a>
+                </ul>
 
 <!--Logo----------------------------->
         <section id="vershaut">
@@ -26,7 +41,7 @@
 <!--Nav bar----------------------------->
         <div id="contnav">
             <header id="navbar">
-                    <ul class="navbar">
+                <ul class="navbar">
                     
                     <a href="#vershaut">
                         <li id="blockfg" class="logona">
@@ -48,11 +63,13 @@
         
 
 
-<!--Présentation ----------------------------->
-        <section>
-            <div id="contenantpho">
+<!-- -----------------------------------------Présentation ----------------------------->
+<!--Div photo prénom ----------------------------->
 
-                <ul id="contenant">
+        <section>
+            <div>
+
+                <ul id="contenantphototxt">
                     <li id="contenantphotoprenom">
                         <ul id="photoprenom">
                             <li id="contourbleu">
@@ -82,7 +99,7 @@
                     </li>
                     
                     
-
+<!--DIV texte présentation ----------------------------->
                     <li id="txtContPre">
                         <ul id="txt">
                             <li class="textI">
@@ -110,20 +127,13 @@
                 
             </div>
         </section>
+<!-- -----------------------------------Fin Présentation ----------------------------->
 
 
 
-<!-- Présentation texte------------------------ -->
-        <section id="sectionII">
-            
-        </section>
-
-        
- 
-    
-      <!--Images defilantes ----------------------------->
 
 
+      <!-------------------------------Images defilantes ----------------------------->
         <div id="slider">
             <a id="slidlink" href="./html/MonParcours.html"><img class="image" style="border-radius: 10%;" src="./img/nav1.jpg" alt="Mon Parcours" id="slide" title="Mon Parcours" ></a>
             <!-- <p class="description">Mon Parcours</p> -->
@@ -131,10 +141,8 @@
             <div id="suivant" class="zindex" onclick="ChangeSlide(1)">></div>
         </div>
 
-        <!-- NAV avant peid --------------  -->
 
-
-
+        <!-- -------------------- Barre de menu en bas *------------------------- -->
         <section id="trois">
             <ul id="navbarBas">
     
@@ -160,7 +168,7 @@
             
         </section>
 
-        <!-- Pied et Contact  -->
+        <!--------------------- Pied et Contact ----------------------- -->
 
         <footer id="pied">
            

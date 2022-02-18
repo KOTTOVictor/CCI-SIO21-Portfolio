@@ -61,16 +61,6 @@ body {
 
 /* <!--NAV BAR-----------------------------> */
 
-#navbar ul li {
-    color: #16acea ;
-    animation: flash 1.4s linear infinite;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-}
-
 @keyframes flash {
     0% {
         color: #e8d71e ;
@@ -86,32 +76,37 @@ body {
     }
 }
 
-
-
 #contnav{
     position: sticky;
     top: 0;
     overflow: hidden;
     z-index: 1;
-
-
-
 }
-header{
+
+#navbar{
     width: 100%;
     overflow: hidden;
     background-color: #16acea;
-    
+}
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
-header li{
-    float: right;
-    font-size: 2em;
-    padding: 0em 1em 0 1em ;
-}
-header li a{
+
+#navbar a{
     text-decoration: none;
     
+}
+
+#blockfg{
+    border-top-right-radius: 80px 80px;
+
+}
+
+#blockfd{
+    border-top-left-radius: 80px 80px;
+
 }
 .logona {
     float: left;
@@ -119,29 +114,38 @@ header li a{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    flex-wrap: wrap
-
-}
-#navbar{
+    flex-wrap: wrap;
+    color: #16acea ;
+    animation: flash 1.4s linear infinite;
     background-color: #d71b3b;
     z-index: 0;
-
+    font-size: 2em;
+    padding: 0em 0.7em 0 0.7em ;
 }
+
 
 .imgnav{
     max-width: 1em;
     max-height: 1em;
+    
 }
 
 /* Présentation */
+/* <!--Div photo prénom -----------------------------> */
 
-#contenant{
+
+#contenantphototxt{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-evenly;
     align-items: center
 }
+
+#contenantphotoprenom{
+    margin-top: 40px;
+}
+
 #photoprenom{
     display: flex;
     display: flex;
@@ -167,21 +171,6 @@ header li a{
 
 }
 
-#contenantphotoprenom{
-    margin-top: 40px;
-}
-    
-#contenantPre{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center; 
-    justify-content: space-around;
-    width: 45%;
-    margin-left: 15%;
-    margin-right: auto;
-
-}
 #cerclePre{
     background-color: #4203c9;
     display: flex;
@@ -191,9 +180,7 @@ header li a{
     border-radius: 700px;
     justify-content: center;
 }
-#txtContPre {
-    width: 800px;
-}
+
 .presentation{
     background-color: #d71b3b;
     border-radius: 700px;
@@ -212,6 +199,7 @@ header li a{
     height: 250px;
 
 }
+
 .photodemoi{
     width: 180px;
     height: 230px;
@@ -227,22 +215,15 @@ header li a{
     transform: scale(1.0000001);
 }
 
-.divimage{
-    text-align: center;
-
-}
-
 #prenom{
     margin-top: 25px;
 }
-/* Présentation Texte-------------------------------- */
 
-u {
-    text-decoration: #f00  underline;
-}
 
-#sectionII{
-    padding-top: 3em;
+/* <!--DIV texte présentation -----------------------------> */
+
+#txtContPre {
+    width: 800px;
 }
 
 #txt{
@@ -250,8 +231,8 @@ u {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-
 }
+
 .textI {
     font-size: 2em;
     font-weight: bolder;
@@ -267,11 +248,20 @@ u {
     transition: all .3s ease-in-out;
 
 }
+
 .textII:hover{
     transform: scale(1.2);
 }
 
-/* Images defilantes -------------------- */
+
+u {
+    text-decoration: #f00  underline;
+}
+
+
+
+
+/*--------------------------- Images defilantes -------------------- */
 
 #slider {
     position: relative;
@@ -283,20 +273,22 @@ u {
     background-color: rgb(255,255,255);
     border-radius: 30%;
     z-index: 0;
-}
-#precedent, #suivant, .image{
-    z-index: 10;
+    margin-top: 25px;
 }
 
-#precedent,
-#suivant {
+/* En attendant de voir si c'est necessaire */
+/* #precedent, #suivant, .image{
+    z-index: 10;
+} */
+
+#precedent,#suivant {
     cursor: pointer;
     transition: opacity 0.3s ease;
     opacity: 0;
     position: absolute;
     font-size: 100px;
-    color: #d71b3b;
-    background-color: #16acea;
+    color: black;
+    background-color: #d71b3b;
     padding: 10px;
 }
 
@@ -313,15 +305,16 @@ u {
     opacity: 1;
 }
 
-/* Barre de menu en bas */
-
+/* <!---------------------- Barre de menu en bas *---------------------------> */
+#trois{
+    margin-top: 25px;
+}
 #navbarBas{
     display: flex;
     flex-direction: row;
     font-size: 3.5em;
     flex-wrap: wrap;
 }
-
 #trois li{
     flex: auto;
     width: 3em;
@@ -330,35 +323,32 @@ u {
     align-items: center;
     justify-content: center;
 }
-
 .monParbas{
     background-color: #d71b3b;
 }
-
 .mesPro{
     background-color: #e8d71e ;
 }
-
 .mesExp{
     background-color: #16acea;
     font-size: 0.7em;
-
 }
 
+/*  -------- ------------------Pied et Contact--------------------------------- */
+#pied{
+    font-size: small;
+    padding-bottom: 1em;
 
-
-
-
-/* Pied et Contact--------------------------------- */
-
+}
+#contcontact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 footer{
     background-color: #d71b3b;
     color: #e8d71e;
-}
-
-.logofoot{
-    height: 50px;
-    width: 50px;
 }
 
 
@@ -386,39 +376,15 @@ button:hover{
     border: dashed #e8d71e;
 }
 
-#deuxiemeTrait{
-    height: 1px;
-    width: 75%;
-    background-color: #e8d71e;
-    margin: 60px auto;
+.logofoot{
+    height: 50px;
+    width: 50px;
 }
-
-#contcontact{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#pied{
-    font-size: small;
-    padding-bottom: 1em;
-
-}
-
-/* @media screen and (max-width:1024px) {
-    body{
-        width: min-content;
-    }
-} */
-
-
-
 
 
 @media screen and (max-width: 1164px) {
    
-    #contenant{
+    #contenantphototxt{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -462,8 +428,6 @@ button:hover{
 
 
 @media screen and (max-width: 784px) {
-    
-    
     #txtContPre {
         width: 99%;
     }   
@@ -475,7 +439,8 @@ button:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 5px;
+        margin-top: 20px;
+
     }
 
     #logo{
@@ -489,6 +454,16 @@ button:hover{
         width: 118px;
         transform: scale(1.08);
     }
+    #blockfg{
+        border-top-right-radius: 80px 80px;
+        border-top-left-radius: 80px 80px;    
+    }
+    
+    #blockfd{
+        border-top-left-radius: 80px 80px;
+        border-top-right-radius: 80px 80px;    
+    }
+    
 }
 
 @media screen and (max-width: 450px) {
