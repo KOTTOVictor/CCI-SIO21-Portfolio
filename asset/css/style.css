@@ -61,6 +61,10 @@ body {
 
 /* <!--NAV BAR-----------------------------> */
 
+
+#bloccache {
+    display: none;
+}
 @keyframes flash {
     0% {
         color: #e8d71e ;
@@ -422,7 +426,38 @@ button:hover{
 
     #retrouvezmoi{
         margin-top: 5px;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    #bloccache{
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #16acea;
+    }
+    #bloccache li{
+        border-radius: 50%;
+    }
+
+    #vershaut, #contnav{
+        display: none;
+    }
+
+    #logo{
+        height: 117px;
+        width: 118px;
+        transition: all .3s cubic-bezier(1, 0.03, 0, 0.96);
+    }
+
+    #logo:hover{
+        height: 117px;
+        width: 118px;
+        transform: scale(1.08);
     }
 }
 
@@ -443,17 +478,6 @@ button:hover{
 
     }
 
-    #logo{
-        height: 117px;
-        width: 118px;
-        transition: all .3s cubic-bezier(1, 0.03, 0, 0.96);
-    }
-
-    #logo:hover{
-        height: 117px;
-        width: 118px;
-        transform: scale(1.08);
-    }
     #blockfg{
         border-top-right-radius: 80px 80px;
         border-top-left-radius: 80px 80px;    
