@@ -503,7 +503,65 @@ button:hover{
         z-index: 1;
         justify-content: space-around;
         align-items: center;
-        background-color: #16acea;    }
+        background-color: #16acea;    
+    }
+
+    /* #blockfdpetit, #blockfgpetit{
+        position: absolute;
+    } */
+    .logona{
+        height: 70px;
+        width: 70px;
+    }
+
+    /*----------------------------- tes------------------------ */
+    
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    #testNav a{
+        font-size: 16px;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    
+    #testNav ul{
+        position:fixed;
+        width: 100%;
+        height: 100px;
+        background: #4203c9;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #testNav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #testNav a{
+        font-size: 20px;
+    }
+
+    #testNav a:hover,#testNav a.active{
+        background-color: none;
+        color: #d71b3b;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+
+    
+
+    /*----------------------------- tes------------------------ */
+
 }
 
 @media screen and (max-width: 580px) {
@@ -543,42 +601,6 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 580px) {
-    #bloccache {
-        display: none;
-    }
-    #bloccacheun {
-        display: flex;
-        position: sticky;
-        top: 0;
-        overflow: hidden;
-        z-index: 1;
-        justify-content: center;
-        align-items: center;
-        background-color: #16acea;
-    }
-    #blockfd{
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        align-items: center;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-   
-    }
-    #blockfg{
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        align-items: center;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        
-  
-    }
-}
 
 @media screen and (max-width: 450px) {
    
@@ -597,3 +619,56 @@ button:hover{
 
 
 }
+
+
+
+nav{
+    background-color: #16acea;
+    height: 200px;
+    width: 100%;
+
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: #e8d71e;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+#check{
+    display: none;
+}
+

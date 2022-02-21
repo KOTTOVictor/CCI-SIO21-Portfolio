@@ -34,22 +34,22 @@ setInterval("ChangeSlide(1)", 15000);
 // Width PETIT PETIT---------------------------------------------------------
 let blockfgpetit = document.getElementById("blockfgpetit");
 let blockfdpetit = document.getElementById("blockfdpetit");
-let fgpetit = document.getElementById("fgpetit");
-let fdpetit = document.getElementById("fdpetit");
+// let fgpetit = document.getElementById("fgpetit");
+// let fdpetit = document.getElementById("fdpetit");
 
-fgpetit.style.display = "none";
+blockfgpetit.style.display = "none";
 
 
 
 blockfgpetit.addEventListener("click", () => {
-     fgpetit.style.display = "none";
-     fdpetit.style.display = "block";
+    blockfgpetit.style.display = "none";
+    blockfdpetit.style.display = "block";
 
  })
 
 blockfdpetit.addEventListener("click", () => {
-    fdpetit.style.display = "none";
-    fgpetit.style.display = "block";
+    blockfdpetit.style.display = "none";
+    blockfgpetit.style.display = "block";
 
 })
 
