@@ -68,6 +68,9 @@ body {
 #bloccacheun {
     display: none;
 }
+#bloccacheun {
+    display: none;
+}
 @keyframes flash {
     0% {
         color: #e8d71e ;
@@ -501,6 +504,43 @@ button:hover{
         justify-content: space-around;
         align-items: center;
         background-color: #16acea;    }
+}
+
+@media screen and (max-width: 580px) {
+    #bloccache {
+        display: none;
+    }
+    #bloccacheun {
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-color: #16acea;
+    }
+    #blockfd{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+   
+    }
+    #blockfg{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+  
+    }
 }
 
 @media screen and (max-width: 580px) {
