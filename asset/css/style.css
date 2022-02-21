@@ -62,7 +62,10 @@ body {
 /* <!--NAV BAR-----------------------------> */
 
 
-#bloccache {
+#bloccache, #bloccache2 {
+    display: none;
+}
+#bloccacheun {
     display: none;
 }
 @keyframes flash {
@@ -420,8 +423,6 @@ button:hover{
         display: flex;
         flex-direction: column;
         align-items: stretch
-
-
     }
 
     #retrouvezmoi{
@@ -463,6 +464,9 @@ button:hover{
 
 
 @media screen and (max-width: 784px) {
+    #bloccache {
+        display: none;
+    }
     #txtContPre {
         width: 99%;
     }   
@@ -488,6 +492,52 @@ button:hover{
         border-top-right-radius: 80px 80px;    
     }
     
+    #bloccache2 {
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #16acea;    }
+}
+
+@media screen and (max-width: 580px) {
+    #bloccache {
+        display: none;
+    }
+    #bloccacheun {
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-color: #16acea;
+    }
+    #blockfd{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+   
+    }
+    #blockfg{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+  
+    }
 }
 
 @media screen and (max-width: 450px) {

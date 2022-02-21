@@ -31,7 +31,56 @@ function ChangeSlide(sens)
 
 setInterval("ChangeSlide(1)", 15000);
 
+// Width PETIT PETIT---------------------------------------------------------
+let blockfgpetit = document.getElementById("blockfgpetit");
+let blockfdpetit = document.getElementById("blockfdpetit");
+let fgpetit = document.getElementById("fgpetit");
+let fdpetit = document.getElementById("fdpetit");
 
+fgpetit.style.display = "none";
+
+
+
+blockfgpetit.addEventListener("click", () => {
+     fgpetit.style.display = "none";
+     fdpetit.style.display = "block";
+
+ })
+
+blockfdpetit.addEventListener("click", () => {
+    fdpetit.style.display = "none";
+    fgpetit.style.display = "block";
+
+})
+
+
+
+// Width moyen---------------------------------------------------------
+let blockfgmoyen = document.getElementById("blockfgmoyen");
+let blockfdmoyen = document.getElementById("blockfdmoyen");
+let fgmoyen = document.getElementById("fgmoyen");
+let fdmoyen = document.getElementById("fdmoyen");
+
+fgmoyen.style.display = "none";
+
+
+
+blockfgmoyen.addEventListener("click", () => {
+     fgmoyen.style.display = "none";
+     fdmoyen.style.display = "block";
+
+ })
+
+blockfdmoyen.addEventListener("click", () => {
+    fdmoyen.style.display = "none";
+    fgmoyen.style.display = "block";
+
+})
+
+
+
+
+// Width petit---------------------------------------------------------
 
 let blockfg = document.getElementById("blockfg");
 let blockfd = document.getElementById("blockfd");
@@ -39,7 +88,6 @@ let fg = document.getElementById("fg");
 let fd = document.getElementById("fd");
 
 fg.style.display = "none";
-
 
 blockfg.addEventListener("click", () => {
      fg.style.display = "none";
