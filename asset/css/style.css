@@ -56,6 +56,8 @@ body {
 #vershaut{
     background-color: #16acea;
     padding-top: 20px;
+    margin-bottom: -3px;
+
 
 }
 
@@ -511,9 +513,7 @@ button:hover{
         background-color: #16acea;    
     }
 
-    /* #blockfdpetit, #blockfgpetit{
-        position: absolute;
-    } */
+
     .logona{
         height: 70px;
         width: 70px;
@@ -539,7 +539,7 @@ button:hover{
         padding-left: 50px;
     }
 
-    #testNav{
+    #navdecote{
         height: 118px;
         width: 118px;
         display: flex;
@@ -547,7 +547,7 @@ button:hover{
         align-items: center;
     }
 
-    #testNav a{
+    #navdecote a{
         font-size: 16px;
     }
 
@@ -555,7 +555,7 @@ button:hover{
         display: block;
     }
     
-    #testNav ul {
+    #navdecote ul {
         padding-top: 45px ;
         position: fixed;
         width: 100%;
@@ -568,17 +568,17 @@ button:hover{
         transition: all .5s;
     }
 
-    #testNav li{
+    #navdecote li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
 
-    #testNav a{
+    #navdecote a{
         font-size: 20px;
     }
 
-    #testNav a:hover,#testNav a.active{
+    #navdecote a:hover,#navdecote a.active{
         background-color: none;
         color: #d71b3b;
     }
@@ -684,7 +684,7 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
 }
-#testNav a:hover{
+#navdecote a:hover{
     background-color: #e8d71e;
     transition: .5s;
 }
