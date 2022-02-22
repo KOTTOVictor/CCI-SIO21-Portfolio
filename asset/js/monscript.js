@@ -80,7 +80,7 @@ blockfdmoyen.addEventListener("click", () => {
 
 
 
-// Width petit---------------------------------------------------------
+// Width Grand---------------------------------------------------------
 
 let blockfg = document.getElementById("blockfg");
 let blockfd = document.getElementById("blockfd");

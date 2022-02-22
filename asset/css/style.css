@@ -31,63 +31,11 @@ body {
 
 }
 
-
-
-/* <!--Logo-----------------------------> */
-#logodiv{
-    height: 100px;
-    text-align: center;
-    position: relative;
-    z-index: 200;   
-}
-#logo{
-    height: 117px;
-    width: 118px;
-    transition: all .3s cubic-bezier(1, 0.03, 0, 0.96);
-}
-#logo:hover{
-    height: 117px;
-    width: 118px;
-    transform: scale(1.4);
-    
-
-}
-
-#vershaut{
-    background-color: #16acea;
-    padding-top: 20px;
-    margin-bottom: -3px;
-
-
-}
-
-/* <!--NAV BAR-----------------------------> */
-
+/* <!--------------------- Tout ce qui est caché au début ----------------------------------> */
 
 #bloccache, #bloccache2 {
     display: none;
 }
-#bloccacheun {
-    display: none;
-}
-#bloccacheun {
-    display: none;
-}
-@keyframes flash {
-    0% {
-        color: #e8d71e ;
-        text-shadow: none;
-    }
-    50%{
-        color: #4203c9 ; 
-        text-shadow: none;
-    }
-    60%{
-        color: #16acea;
-        text-shadow: 0 0 7px #16acea , 0 0 50px #e8d71e;
-    }
-}
-
 #contnav{
     position: sticky;
     top: 0;
@@ -135,6 +83,48 @@ body {
     padding: 0em 0.7em 0 0.7em ;
 }
 
+#navdecote a:hover{
+    background-color: #e8d71e;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+#check{
+    display: none;
+}
+
+nav{
+    background-color: #16acea;
+    height: 200px;
+    width: 100%;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
 
 .imgnav{
     max-width: 1em;
@@ -142,9 +132,63 @@ body {
     
 }
 
+/* <!--Logo-----------------------------> */
+#logodiv{
+    height: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 200;   
+}
+#logo{
+    height: 117px;
+    width: 118px;
+    transition: all .3s cubic-bezier(1, 0.03, 0, 0.96);
+}
+#logo:hover{
+    height: 117px;
+    width: 118px;
+    transform: scale(1.4);
+    
+
+}
+
+#vershaut{
+    background-color: #16acea;
+    padding-top: 20px;
+    margin-bottom: -3px;
+
+
+}
+
+/* <!--NAV BAR-----------------------------> */
+
+
+
+#bloccacheun {
+    display: none;
+}
+#bloccacheun {
+    display: none;
+}
+@keyframes flash {
+    0% {
+        color: #e8d71e ;
+        text-shadow: none;
+    }
+    50%{
+        color: #4203c9 ; 
+        text-shadow: none;
+    }
+    60%{
+        color: #16acea;
+        text-shadow: 0 0 7px #16acea , 0 0 50px #e8d71e;
+    }
+}
+
+
+
 /* Présentation */
 /* <!--Div photo prénom -----------------------------> */
-
 
 #contenantphototxt{
     display: flex;
@@ -288,10 +332,7 @@ u {
     margin-top: 25px;
 }
 
-/* En attendant de voir si c'est necessaire */
-/* #precedent, #suivant, .image{
-    z-index: 10;
-} */
+
 
 #precedent,#suivant {
     cursor: pointer;
@@ -347,21 +388,20 @@ u {
 }
 
 /*  -------- ------------------Pied et Contact--------------------------------- */
-#pied{
+footer{
+    background-color: #d71b3b;
+    color: #e8d71e;
     font-size: small;
     padding-bottom: 1em;
-
 }
+
 #contcontact{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-footer{
-    background-color: #d71b3b;
-    color: #e8d71e;
-}
+
 
 
 input, textarea, button{
@@ -394,65 +434,10 @@ button:hover{
 }
 
 
+
+/* ------------------- A partir de 1164px Width Moyen----------------------------- */
+
 @media screen and (max-width: 1164px) {
-   
-    #contenantphototxt{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .monParbas{
-        width: 100%;
-    }
-    #navbarBas{
-        display: flex;
-        font-size: 4em;
-        flex-direction: column;
-    }
-    
-    #trois li {
-        flex: auto;
-        width: 100%;
-    }
-    #slider {
-        display: none;
-    }
-    .monParbas, .mesPro{
-        height: 102px;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    #contcontact {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch
-    }
-
-    #retrouvezmoi{
-        margin-top: 5px;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #bloccache{
-        display: flex;
-        position: sticky;
-        top: 0;
-        overflow: hidden;
-        z-index: 1;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #16acea;
-    }
-    #bloccache li{
-        border-radius: 20%;
-    }
-
-    #vershaut, #contnav{
-        display: none;
-    }
 
     #logo{
         height: 117px;
@@ -465,44 +450,8 @@ button:hover{
         width: 118px;
         transform: scale(1.08);
     }
-}
 
-
-@media screen and (max-width: 784px) {
-    #trois{
-        display: none;
-    }
-
-
-    #bloccache {
-        display: none;
-    }
-    #txtContPre {
-        width: 99%;
-    }   
-    .textII:hover{
-        transform: scale(1.09);
-    }
-    
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-
-    }
-
-    #blockfg{
-        border-top-right-radius: 80px 80px;
-        border-top-left-radius: 80px 80px;    
-    }
-    
-    #blockfd{
-        border-top-left-radius: 80px 80px;
-        border-top-right-radius: 80px 80px;    
-    }
-    
-    #bloccache2 {
+    #bloccache{
         display: flex;
         position: sticky;
         top: 0;
@@ -510,34 +459,69 @@ button:hover{
         z-index: 1;
         justify-content: space-around;
         align-items: center;
-        background-color: #16acea;    
+        background-color: #16acea;
     }
 
-
-    .logona{
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
+    #bloccache li{
+        border-radius: 20%;
+    }
+   
+    #vershaut, #contnav{
+        display: none;
     }
 
-    #contenantfleche{
-        height: 118px;
-        width: 118px;
+    #contenantphototxt{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
 
-    #fgpetit, #fdpetit, #blockfgpetit, #blockfdpetit{
-        margin-top: 17px;
+    #slider {
+        display: none;
     }
-
-    /*----------------------------- tes------------------------ */
     
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
+    #navbarBas{
+        display: flex;
+        font-size: 4em;
+        flex-direction: column;
     }
+
+    .monParbas{
+        width: 100%;
+    }
+    
+    #trois li {
+        flex: auto;
+        width: 100%;
+    }
+
+    .monParbas, .mesPro{
+        height: 102px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contcontact {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch
+    }
+
+    #retrouvezmoi{
+        margin-top: 5px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+/* ------------------- A partir de 784px Width Moyen----------------------------- */
+
+
+
+@media screen and (max-width: 784px) {
 
     #navdecote{
         height: 118px;
@@ -545,6 +529,11 @@ button:hover{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
     }
 
     #navdecote a{
@@ -586,20 +575,83 @@ button:hover{
         left: 0;
     }
 
-
-
     #pied{
         margin-top: 20px;
     }
 
-}
-    /*----------------------------- tes------------------------ */
+    #contenantfleche{
+        height: 118px;
+        width: 118px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #fgpetit, #fdpetit, #blockfgpetit, #blockfdpetit{
+        margin-top: 17px;
+    }
+
+    #trois{
+        display: none;
+    }
+    .logona{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
 
 
-@media screen and (max-width: 580px) {
     #bloccache {
         display: none;
     }
+    #txtContPre {
+        width: 99%;
+    }   
+    .textII:hover{
+        transform: scale(1.09);
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    #blockfg{
+        border-top-right-radius: 80px 80px;
+        border-top-left-radius: 80px 80px;    
+    }
+    
+    #blockfd{
+        border-top-left-radius: 80px 80px;
+        border-top-right-radius: 80px 80px;    
+    }
+    
+    #bloccache2 {
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #16acea;    
+    } 
+}
+
+
+/* ------------------- A partir de 580px Width Moyen----------------------------- */
+
+
+
+@media screen and (max-width: 580px) {
+    
+    #bloccache {
+        display: none;
+    }
+
     #bloccacheun {
         display: flex;
         position: sticky;
@@ -610,6 +662,7 @@ button:hover{
         align-items: center;
         background-color: #16acea;
     }
+
     #blockfd{
         border-radius: 50%;
         width: 40px;
@@ -620,6 +673,7 @@ button:hover{
         justify-content: center;
    
     }
+
     #blockfg{
         border-radius: 50%;
         width: 40px;
@@ -631,72 +685,5 @@ button:hover{
         
   
     }
-
     
 }
-
-
-@media screen and (max-width: 450px) {
-   
-
-    .navbar{
-        justify-content: space-between;
-        align-items: normal;
-        padding-top: 20px;
-    } 
-
-    
-
-
-}
-
-
-
-nav{
-    background-color: #16acea;
-    height: 200px;
-    width: 100%;
-
-}
-
-label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-#navdecote a:hover{
-    background-color: #e8d71e;
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    line-height: 80px;
-    cursor: pointer;
-    /* display: none; */
-}
-
-#check{
-    display: none;
-}
-
