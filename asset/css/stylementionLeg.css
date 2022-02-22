@@ -7,7 +7,7 @@ body,html, *{
     box-sizing: border-box;
     scroll-behavior: smooth;
     text-decoration: none;
-
+    transition: .5s;
 }
 
 a {
@@ -59,7 +59,10 @@ li{
     background-color: #e8d71e ;
 }
 
+#imgPrinc{
+    border-radius: 30%;
 
+}
 
 /* Mentions légales */
 

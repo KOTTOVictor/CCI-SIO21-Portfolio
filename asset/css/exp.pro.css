@@ -9,6 +9,8 @@ body,html, *
     scroll-behavior: smooth; 
     list-style: none;
     text-decoration: none;   
+    transition: .5s;
+
 }
 
 body{
@@ -60,6 +62,7 @@ li{
 #imgPrinc{
     width: 950px;
     height: 550px;
+    border-radius: 30%;
 }
 
 #contenantImg h1{
