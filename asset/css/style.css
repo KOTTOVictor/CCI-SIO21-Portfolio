@@ -83,6 +83,20 @@ body {
     font-size: 2em;
     padding: 0em 0.7em 0 0.7em ;
 }
+@keyframes flash {
+    0% {
+        color: #e8d71e ;
+        text-shadow: none;
+    }
+    50%{
+        color: #4203c9 ; 
+        text-shadow: none;
+    }
+    60%{
+        color: #16acea;
+        text-shadow: 0 0 7px #16acea , 0 0 50px #e8d71e;
+    }
+}
 
 #navdecote a:hover{
     background-color: #e8d71e;
@@ -171,20 +185,8 @@ nav ul li a {
 #bloccacheun {
     display: none;
 }
-@keyframes flash {
-    0% {
-        color: #e8d71e ;
-        text-shadow: none;
-    }
-    50%{
-        color: #4203c9 ; 
-        text-shadow: none;
-    }
-    60%{
-        color: #16acea;
-        text-shadow: 0 0 7px #16acea , 0 0 50px #e8d71e;
-    }
-}
+
+
 
 
 
