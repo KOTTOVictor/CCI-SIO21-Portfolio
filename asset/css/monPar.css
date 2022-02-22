@@ -82,6 +82,9 @@ li{
 #intro{
     text-align: center;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 header.major {
     position: relative;
@@ -208,4 +211,21 @@ textarea{
     display: flex;
     margin-bottom: 20px;
     padding: 0 10%;
+}
+
+
+@media screen and (max-width: 819px) {
+    
+    .mesPro, .mesExp {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1059px) {
+    
+    #row #colonne {
+        width: 33.20%;
+        width: 400px;
+    }
 }

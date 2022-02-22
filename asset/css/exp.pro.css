@@ -10,6 +10,12 @@ body,html, *
     list-style: none;
     text-decoration: none;   
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 a {
     text-decoration: none;
     color: black;
@@ -137,7 +143,7 @@ button{
     height: 1em;
     width: 75%;
     background-color: #e8d71e;
-    margin: 60px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -152,4 +158,12 @@ button{
     display: flex;
     margin-bottom: 20px;
     padding: 0 10%;
+}
+
+@media screen and (max-width: 819px) {
+    
+    .monPar, .mesPro {
+        display: none;
+    }
+    
 }
