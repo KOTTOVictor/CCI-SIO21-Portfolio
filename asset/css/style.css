@@ -48,7 +48,7 @@ body {
 #navbar {
   width: 100%;
   overflow: hidden;
-  background-color: #16acea;
+  /* background-color: #16acea; */
   background-color: green;
 }
 
