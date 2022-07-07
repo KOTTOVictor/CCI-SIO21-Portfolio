@@ -524,7 +524,7 @@ label.logo {
   /* height: 100vh; */
   /* height: 300px; */
   height: 250px;
-
+  display: none;
   background: #4203c9;
   margin-top: 38px;
   top: 80px;
@@ -682,3 +682,11 @@ div.form-group {
 label {
   border: solid;
 }
+
+/* div#navdecotediv {
+  display: none;
+} */
+
+/* #bloccache2 {
+  display: none;
+} */

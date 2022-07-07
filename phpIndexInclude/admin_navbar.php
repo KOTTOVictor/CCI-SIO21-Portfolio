@@ -5,28 +5,24 @@
     <div id="contenantfleche">
         <a href="#bloccachee">
             <li id="blockfgpetit" class="logona">
-                <img id="fgpetit" class="imgnav" src="./img/fg.png" alt="">
+                <img id="fgpetit" class="imgnav" src="<?= WEBROOT; ?>img/fg.png" alt="">
             </li>
         </a>
         <a href="#contacte">
             <li id="blockfdpetit" class="logona">
-                <img id="fdpetit" class="imgnav" src="./img/fd.png" alt="">
+                <img id="fdpetit" class="imgnav" src="<?= WEBROOT; ?>img/fd.png" alt="">
             </li>
         </a>
 
     </div>
 
-    <img id="logo" src="./img/Solutionnewnew.png" alt="">
+    <img id="logo" src="<?= WEBROOT; ?>img/Solutionnewnew.png" alt="">
 
     <div id="wrap">
         <header class="header">
             <nav class="nav">
                 <a id="open">
-                    <svg width="50px" height="37px" viewBox="0 0 34 27">
-                        <rect fill="#FFFFFF" width="34" height="4" />
-                        <rect y="11" fill="#FFFFFF" width="34" height="4" />
-                        <rect y="23" fill="#FFFFFF" width="34" height="4" />
-                    </svg>
+                    <p style="color: white;font-size: 2em;font-weight: bolder;">Modifier</p>
                 </a>
                 <div id="navdecoted">
                     <ul id="navdecote">

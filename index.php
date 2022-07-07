@@ -1,5 +1,5 @@
 <?php
-// $auth = 0;
+$auth = 0;
 // error_reporting(E_ALL);
 // ini_set('display_errors', 1);
 
@@ -17,7 +17,7 @@ include 'lib/includes.php';
 include 'phpIndexInclude/header.php';
 
 
-include 'lib/debug.php';
+// include 'lib/debug.php';
 
 
 include 'phpIndexInclude/navbar.php';

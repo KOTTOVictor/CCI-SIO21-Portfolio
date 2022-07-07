@@ -12,6 +12,6 @@ include 'form.php';
 
 
 // Session_start();
-// include 'session.php';
 
 include  'auth.php';
+include 'session.php';

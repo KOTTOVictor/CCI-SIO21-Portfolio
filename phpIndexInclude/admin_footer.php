@@ -22,7 +22,8 @@
             </h1>
             <div>
                 <a href="https://www.linkedin.com/feed/?trk=seo-authwall-base_signin-form_submit"><img
-                        title="lien vers linkedin" class="logofoot" src="./img/logolinkedin.png" alt=""></a>
+                        title="lien vers linkedin" class="logofoot" src="<?= WEBROOT; ?>img/logolinkedin.png"
+                        alt=""></a>
             </div>
             <div id="copyrightdiv">
                 <div id="copyright">
@@ -43,7 +44,7 @@
     ?>
 </footer>
 
-<script src="./asset/js/monscript.js"></script>
+<script src="<?= WEBROOT; ?>asset/js/monscript.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 

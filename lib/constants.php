@@ -7,9 +7,14 @@
 // $url = $_SERVER['REQUEST_URI'];
 
 
-// $url = explode('portfoliov1', $_SERVER['REQUEST_URI']);
 
+// $directory = (basename(dirname(dirname(__FILE__))));
+// $directory = (basename(dirname(dirname(__FILE__))));
+// var_dump($directory);
+
+$url = explode('portfoliov1', $_SERVER['QUERY_STRING']);
 // var_dump($url);
+
 
 define(
     // 'WEBROOT',
@@ -20,9 +25,15 @@ define(
     // ($_SERVER['SERVER_NAME']) . "/")
 
     'WEBROOT',
-    (dirname($_SERVER['SERVER_NAME']) . "/")
+    // (dirname($_SERVER['SERVER_NAME']) . "/")
+    $url[0] . '../'
+
+    // $url[0] . 'portfoliov1/'
+
 );
-var_dump(WEBROOT);
+
+
+// var_dump(basename(WEBROOT));
 
 // define(
 //     'WEBROOT',
