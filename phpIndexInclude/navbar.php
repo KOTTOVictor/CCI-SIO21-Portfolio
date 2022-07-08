@@ -1,4 +1,4 @@
-<!-- <p id="bloccachee"></p> -->
+<p id="bloccachee"></p>
 
 <ul id="bloccache2">
 
@@ -18,7 +18,19 @@
 
     <img id="logo" src="./img/Solutionnewnew.png" alt="">
 
+
     <div id="wrap">
+        <ul id="navdecote">
+            <li><a href="./html/Projet.html">Projets</a></li>
+            <li><a href="./html/ExperienceProffesionnel.html">Experiences</a></li>
+        </ul>
+
+    </div>
+
+
+
+    <!-- avec la sandwich -->
+    <!-- <div id="wrap">
         <header class="header">
             <nav class="nav">
                 <a id="open">
@@ -37,7 +49,7 @@
             </nav>
         </header>
 
-    </div>
+    </div> -->
 
     <!-- <nav id="navdecote">
         <input type="checkbox" id="check">
