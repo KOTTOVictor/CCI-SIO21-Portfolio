@@ -24,12 +24,7 @@
                 <a id="open">
                     <p style="color: white;font-size: 2em;font-weight: bolder;">Modifier</p>
                 </a>
-                <div id="navdecoted">
-                    <ul id="navdecote">
-                        <li><a href="./html/Projet.html">Projets</a></li>
-                        <li><a href="./html/ExperienceProffesionnel.html">Experiences</a></li>
-                    </ul>
-                </div>
+
             </nav>
         </header>
 
