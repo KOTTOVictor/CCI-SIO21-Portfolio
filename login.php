@@ -21,7 +21,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     // var_dump($sql);
 
     $select = $db->query("SELECT * FROM users WHERE username=$username AND password='$password'");
-    var_dump($select->rowCount());
+    // var_dump($select->rowCount());
 
     // si rowcount suppérieur à zero ça veut dire qu'un utilisateur est connecté
     if ($select->rowCount() > 0) {
@@ -36,7 +36,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
 // Inclusion du header
 include 'phpIndexInclude/header.php';
-include 'phpIndexInclude/navbar.php';
+include 'phpIndexInclude/admin_navbar.php';
 
 // var_dump($select->rowCount());
 
@@ -71,5 +71,5 @@ include 'phpIndexInclude/navbar.php';
 
 
 <?php
-include './lib/debug.php';
+// include './lib/debug.php';
 include  'phpIndexInclude/footer.php';
